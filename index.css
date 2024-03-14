@@ -1,0 +1,87 @@
+/*CSS RESET*/
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/*UTILITIES*/
+.conteiner{
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/*GENERICHE*/
+body{
+    padding: 16px;
+    font-family: inter, sans-serif;
+    background-color: rgb(210, 239, 232);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+h1{
+    font-size: 20px;
+    color: white;
+}
+
+/*pannello*/
+.panel{
+    background-color: rgb(95, 198, 173);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+/* ELEMENTI DEL MODULO AGGIUNGI ATTIVITA'*/
+.add_todo{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+input{
+    font-size: 16PX;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    flex-grow: 1;
+}
+
+button{
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/* MESSAGGIO DI LISTA VUOTA*/
+.empty-list-message{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.todo-item{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 16px;
+    margin: 16px 0;
+}
+
+.todo-text{
+    padding: 16px;
+}
+
+.todo-check{
+    padding: 16px;
+    background-color: yellow;
+    border-radius: 16px 0 0 16px;
+    cursor: pointer;
+}
